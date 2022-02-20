@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <script src="./JS/main.js"></script>
+    <script src="./JS/main.js" defer></script>
     <div class="slideshow-container">
 
         <div class="mySlides fade">
@@ -37,5 +37,12 @@
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div>
+        <p>How many seconds would you like to set your alarm for?</p>
+        <input id="seconds" value="">
+        <button onclick="countdown()">Click here</button>
+        <p id="timer"></p>
     </div>
 </body>
