@@ -1,0 +1,60 @@
+.formBox {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 158px;
+    width: 450px;
+    margin: auto;
+    padding: 25px;
+    background-color: burlywood;
+}
+
+label[for="fName"],
+label[for="lName"] {
+    padding: 3px;
+    
+}
+
+#fName,#lName {
+    width: 116px;
+    border: 2px solid gray;
+    padding: 3px;
+    margin: 5px;
+}
+
+label[for="phoneNum"]{
+    padding: 2px;
+}
+
+#phoneNum {
+    width: 317px;
+    border: 2px solid gray;
+    padding: 3px;
+    margin: 5px;
+}
+
+label[for="email"]{
+    padding: 2px;
+}
+
+#email {
+    width: 193px;
+    border: 2px solid gray;
+    padding: 3px;
+    margin: 5px;
+}
+
+#domainName{
+    width: 113px;
+    border: 2px solid gray;
+    padding: 2px;
+    margin: 5px;
+}
+
+input[for="submit"]{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    margin: 4px, 2px;
+    cursor: pointer;
+}
